@@ -13,7 +13,7 @@ public class DemoTest {
 		// TODO Auto-generated method stub
 	    //初始化23张表
 		ProcessEngine  processEngine =ProcessEngines.getDefaultProcessEngine();
-		//创建流程实例
+		// 创建   流程实例
 		Deployment deployment = processEngine.getRepositoryService()
 				.createDeployment().name("Activiti 入门2")
 				.addClasspathResource("diagrams/test.bpmn")
